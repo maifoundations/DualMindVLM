@@ -22,6 +22,7 @@ We introduce **DualMindVLM**, a dual-mode thinking VLM that can **automatically 
 <p align="center">
   <img src="figures/overview.png" width="100%">
 </p>
+
 ---
 
 ## 🚀 Release Progress
