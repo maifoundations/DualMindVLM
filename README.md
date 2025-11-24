@@ -32,7 +32,7 @@ We introduce **DualMindVLM**, a dual-mode thinking VLM that can **automatically 
 
 ---
 
-## 📚 Citation
+## 🔗 Citation
 
 If you find this work useful, please cite our paper:
 
