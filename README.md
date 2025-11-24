@@ -31,7 +31,7 @@ We introduce **DualMindVLM**, a dual-mode thinking VLM that can **automatically 
 |-----------|--------|-------|
 | 🧩 **Model** | ✔️ Released | Available on 🤗 HuggingFace |
 | ⚙️ **Inference + Evaluation Code** | 🕒 Coming Soon | vLLM-based inference, string-matching evaluation |
-| 📚 **Dataset** | 🕒 Coming Soon | Automatically labeled Fast/Slow training set |
+| 📚 **Dataset** | 🕒 Coming Soon | Automatically labeled fast/slow training set |
 | 🔥 **Training Code** | 🕒 Coming Soon | GRPO-based training framework |
 
 ---
