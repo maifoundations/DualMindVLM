@@ -30,7 +30,7 @@ We introduce **DualMindVLM**, a dual-mode thinking VLM that can **automatically 
 | Component | Status | Notes |
 |-----------|--------|-------|
 | 🧩 **Model** | ✔️ Released | Available on 🤗 HuggingFace |
-| ⚙️ **Inference + Evaluation Code** | 🕒 Coming Soon | vLLM-based inference, string-matching evaluation |
+| ⚙️ **Inference + Evaluation Code** | ✔️ Released | vLLM-based inference, string-matching evaluation |
 | 🔥 **Training Code** | 🕒 Coming Soon | GRPO-based training framework |
 
 ---
