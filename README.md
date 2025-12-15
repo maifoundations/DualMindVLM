@@ -12,6 +12,10 @@
   <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Models-blue'>
 </a>
 
+<a href='https://www.maifoundations.com/blog/dualmindvlm/'>
+  <img src='https://img.shields.io/badge/%F0%9F%93%9D%20Blog-Post-orange'>
+</a>
+
 </h5>
 </div>
 
