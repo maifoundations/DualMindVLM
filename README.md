@@ -21,7 +21,7 @@
 
 ## 💡 Overview
 
-We introduce **DualMindVLM**, a dual-mode thinking VLM that can **automatically switch between fast and slow thinking modes** based on the difficulty level of the problem. DualMindVLM is optimized using a simple RL approach built only on question–answer pairs. The approach consists of two stages: The first stage utilizes the output length variation of the pretrained VLM to assign each sample a thinking mode label. The second stage develops dual-mode thinking in the model through GRPO-based reinforcement learning, where half the sampled candidates are guided by the assigned label. Despite its simplicity, DualMindVLM significantly outperforms the base model and achieves performance on par with state-of-the-art visual reasoning models, while maintaining exceptionally high token efficiency.
+We introduce **DualMindVLM**, a dual-mode thinking VLM that leverages the model's intrinsic prior on response length to develop two controllable thinking modes, enabling **automatic switching between fast and slow thinking**. DualMindVLM is optimized using a simple RL approach built only on question–answer pairs. The approach consists of two stages: In the first stage, each training instance is anchored to a thinking prefix following the model's natural response length tendency. In the second stage, we employ GRPO with partially-constrained rollouts where half of the trajectories are generated with a thinking mode prefix while the other half are freely generated. Despite its simplicity, DualMindVLM significantly outperforms the base model and achieves performance on par with state-of-the-art visual reasoning models, while maintaining high token efficiency.
 
 <p align="center">
   <img src="figures/overview.png" width="100%">
